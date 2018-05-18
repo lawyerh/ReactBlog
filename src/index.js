@@ -7,7 +7,7 @@ import ReduxPromise from 'redux-promise';
 import {BrowserRouter, Route } from 'react-router-dom';
 
 import reducers from './reducers';
-import PostsIndex from './components/posts';
+import PostsIndex from './containers/posts';
 
 import registerServiceWorker from './registerServiceWorker';
 
